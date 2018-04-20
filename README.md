@@ -6,7 +6,30 @@ We are trying to match people based on our calculations.
 For seeing the deployed version please go to this link:
 [Click here to open its deployed version on heroku](https://friend-findertest.herokuapp.com/)
 
-##Algorithm
+
+## Installation
+
+Install the following on your local computer:
+- [x] Nodejs
+
+run the following command on your terminal on root of the project to install all the packages:
+```javascript
+npm i
+```
+
+## Running it locally
+1. After installation is done, tun this command on your terminal:
+
+```javascript
+nodemon server.js
+```
+
+2. Go to your browser and open this link:
+```
+http://localhost:8080
+```
+
+## Algorithm
 This code will execute fore responding with match from friends list:
 ```javascript
 //friends is the api/friends rout
@@ -54,28 +77,6 @@ var friends = [
         .
 
 ```
-#Installation
-
-Install the following on your local computer:
-- [x] Nodejs
-
-run the following command on your terminal on root of the project to install all the packages:
-```javascript
-npm i
-```
-
-#Running it locally
-1. After installation is done, tun this command on your terminal:
-
-```javascript
-nodemon server.js
-```
-
-2. Go to your browser and open this link:
-```
-http://localhost:8080
-```
-
 
 _If you have any more questions please contact me_
 _Regards Rohani_
